@@ -23,7 +23,7 @@ import api from '../../services/api'
 
 function Landing() {
   const history = useHistory()
-  const [username, setUsername] = useState('')
+  const [username, setUsername] = useState('');
 
   const { state, dispatch } = useContext(AppContext)
   const { colors } = useContext(ThemeContext)
