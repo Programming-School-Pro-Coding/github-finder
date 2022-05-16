@@ -31,6 +31,7 @@ export const CardText = styled.span<TextInterface>`
   font: 400 1.2rem Poppins;
 
   color: ${(props) => props.theme.colors.text};
+  text-align: center;
 
   ${(props) => {
     switch (props.font) {
