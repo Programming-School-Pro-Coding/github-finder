@@ -21,7 +21,6 @@ export const HomeButton = styled.button`
   height: 2.8rem;
   padding: 10px;
   font: 400 1rem Poppins;
-  width: 13rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,3 +31,5 @@ export const HomeButton = styled.button`
     opacity: 0.8;
   }
 `
+
+// width: 13rem;
